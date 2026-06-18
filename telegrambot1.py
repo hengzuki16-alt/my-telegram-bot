@@ -113,7 +113,7 @@ async def cancel(update: Update, context: ContextTypes.DEFAULT_TYPE):
 
 def main():
     # ⚠️ យក Token ថ្មីស្រឡាងដែលទើប Revoke មុននេះមកផាសដាក់ជំនួសត្រង់នេះ
-    TOKEN = "8338881319:AAFDpQzazdm6NZiLBrK2l_L9TM3A4ApmicI"
+    TOKEN = "8803711682:AAFMowMRnXeqTkPKrs2AmcIhNHXxdHky5us"
     
     threading.Thread(target=run_health_server, daemon=True).start()
 
